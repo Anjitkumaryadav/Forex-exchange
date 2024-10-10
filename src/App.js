@@ -54,8 +54,8 @@ function App() {
   }
 
   return (
-    <div>
-      <h1>Currency Converter</h1>
+    <div className="app">
+      <h1>Forex Exchange</h1>
       <CurrencyInput
       onAmountChange={handleAmount1Change}
       onCurrencyChange={handleCurrency1Change}
@@ -70,6 +70,7 @@ function App() {
         amount={amount2}
         currency={currency2}
       />
+      {/* <img src="https://drive.google.com/file/d/1PO1YPFpVQB98uLdXH7wdRWABjX7pPzvu/view?usp=sharing" alt="" /> */}
     </div>
   );
 }

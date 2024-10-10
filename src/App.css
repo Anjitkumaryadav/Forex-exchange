@@ -34,3 +34,25 @@ input{
 select{
   padding: 15px;
 }
+.heading{
+  background-color: gray;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.compare-text{
+  /* background-color: red; */
+  font-size: 40px;
+}
+.compare-main{
+  display: flex;
+  justify-content: center;
+  
+}
+.compare-second{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  background-color: #335;
+  width: 600px;
+  border-radius: 15px;
+}
